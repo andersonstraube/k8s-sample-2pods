@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-app
+  namespace: aulainfra
+data:
+  TZ: "America/Sao_Paulo"
